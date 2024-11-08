@@ -162,16 +162,15 @@ if os.path.exists(os.path.join("fairseq", "model_parallel", "megatron", "mpu")):
 
 def do_setup(package_data):
     setup(
-        name="fairseq",
+        name="fairseq-fixed",
         version=version,
-        description="Facebook AI Research Sequence-to-Sequence Toolkit",
-        url="https://github.com/pytorch/fairseq",
+        description="Facebook AI Research Sequence-to-Sequence Toolkit -- Now Supporting Python 3.11+",
+        url="https://github.com/JackismyShephard/fairseq",
         classifiers=[
             "Intended Audience :: Science/Research",
             "License :: OSI Approved :: MIT License",
-            "Programming Language :: Python :: 3.6",
-            "Programming Language :: Python :: 3.7",
-            "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.11",
+            "Programming Language :: Python :: 3.12",
             "Topic :: Scientific/Engineering :: Artificial Intelligence",
         ],
         long_description=readme,
