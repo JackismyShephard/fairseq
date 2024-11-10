@@ -14,3 +14,4 @@ packaging
 twine
 setuptools
 wheel
+auditwheel
